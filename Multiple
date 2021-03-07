@@ -23,6 +23,7 @@ for (var i = 1; i <= numbers; i++) {
   if (multiple(i, 5)) multiples_5.push(i);
   if (multiple(i, 15)) multiples3_5.push(i);
 }
+//Print the result
 console.log('fizz', multiples_3);
 console.log('buzz', multiples_5);
 console.log('fizzbuzz', multiples3_5);
