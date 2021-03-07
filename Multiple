@@ -14,7 +14,9 @@ function multiple(value, multiple) {
 const numbers = 100;
 var multiples_3 = [];
 var multiples_5 = [];
-var multiples3_5 = []; // bucle del 1 al 100
+var multiples3_5 = [];
+
+// loop 1 al 100
 
 for (var i = 1; i <= numbers; i++) {
   if (multiple(i, 3)) multiples_3.push(i);
